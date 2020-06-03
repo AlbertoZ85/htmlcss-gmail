@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/sfondo-legno.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+.intestazione{
+    width: 50%;
+    margin: auto;
+    font-family: 'Times New Roman', serif;
+    color: white;
+}
+
+img{
+    height: 90px;
+    width: auto;
+    vertical-align: middle;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gmail-text{
+    display: inline-block;
+}
+
+hr{
+    margin: 10px 0;
+    border-color: lightgray;
+}
+
+.corpo{
+    width: 50%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    width: 50px;
+    height: 15px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.unread{
+    font-size: 30px;
+    color: white;
+    margin: 15px 0;
+}
+
+.trenta{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid orange;
+    border-radius: 40px;
+    background-color: orange;
+}
+
+.read-mail{
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+    line-height: 40px;
+    background-color: lightgray;
+}
+
+.star{
+    font-size: 30px;
+}
+
+.oggetto{
+    font-weight: 900;
+}
+
+.testo{
+    color: gray;
+}
+
+.unread-mail{
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+    line-height: 40px;
+    background-color: white;
+}
+
+footer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.gmail{
+    font-size: 30px;
+}
